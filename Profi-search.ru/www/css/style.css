@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #181818;
+}
+
+.page {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    padding: 1px 20px;
+    height: 100vh;
+}
+
+.form-questions {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    background: #dfdfdf;
+    padding: 35px 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #000;
+}
+
+.form-questions__answer {
+    margin-right: 10px;
+}
+
+.form-questions__store_answers {
+    margin-top: 15px;
+}
+
+.warning {
+    display: none;
+    color: red;
+    font-size: 14px;
+}

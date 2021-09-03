@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap" rel="stylesheet">
+    <title>Contact book</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="header">
+        <div class="header__inner">
+            <div class="logo">
+                <span class="logo__name">Contacts</span>
+            </div>
+
+            <nav class="menu__item">
+                <a href="#" class="menu__link">
+                    <ll class="menu__list" onclick="backHome();">Contacts list</ll>
+                </a>
+
+                <a href="#" class="menu__link">
+                    <ll class="menu__list">Menu 2</ll>
+                </a>
+
+                <a href="#" class="menu__link">
+                    <ll class="menu__list">Menu 3</ll>
+                </a>
+
+                <a href="#" class="menu__link">
+                    <ll class="menu__list">Menu 4</ll>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- background image -->
+    <div class="bg-image">
+        <div class="bg-shadow"></div>
+    </div>
+
+    <!-- content part -->
+    <main id="main">
+        <div class="main__inner">
+            <!-- content -->
+            <article id="content">
+                <div class="info-contact"></div>
+
+                <div class="content__box">
+                    <div class="not-found"></div>
+                    <div class="found">Found <span class="count"></span> imems.</div>
+                    <div class="contact__item">
+
+                    </div>
+                    <button class="show-more">Show more</button>
+                </div>
+            </article>
+
+            <!-- sidebar -->
+            <aside class="sidebar">
+                <form action="#" class="search-form">
+                    <input type="search" class="search-input" placeholder="Search by name">
+                    <input type="button" value="Search" class="search-button">
+                </form>
+                
+                <!-- filters -->
+                <div class="filter">
+                    <select id="abc" class="abc">
+                        <option value="default">Alphabet order</option>
+                        <option value="up">Up down</option>
+                        <option value="down">Down up</option>
+                    </select>
+
+                    <select id="group" class="group">
+                        <option value="default">Grouping</option>
+                        <option value="up">Up down</option>
+                        <option value="down">Down up</option>
+                    </select>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

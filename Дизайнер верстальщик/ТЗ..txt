@@ -1,0 +1,11 @@
+#f3 #cr {
+
+    float: left;
+    padding: 28px 0 25px 0;// padding: 28px 0 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(255,255,255,0.5);
+    font-weight: 300;
+    font-size: 14px;
+
+}
